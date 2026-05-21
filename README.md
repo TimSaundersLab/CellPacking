@@ -8,6 +8,13 @@ This is a flat monolayer simulation package for the article:
 
 Yuting Lou<sup>1</sup>, Jean-Francois Rupprecht<sup>1,2</sup>, Sophie Theis<sup>3</sup>, Tetsuya Hiraiwa<sup>1</sup>, and Timothy E Saunders<sup>1,3</sup>
 
+& 
+
+### Stress anisotropy in axisymmetric 3D active curved structures
+
+Yuting Lou<sup>1</sup>, Sophie Theis<sup>3</sup>, Jean-Francois Rupprecht<sup>1,2</sup>, Timothy E Saunders<sup>1,3</sup>, and Tetsuya Hiraiwa<sup>1</sup>
+
+
 <sup>1</sup>Mechanobiology Institute, National University of Singapore  
 <sup>2</sup>Aix Marseille Université, Université de Toulon, CNRS,  
 Centre de Physique Théorique, Turing Centre for Living Systems, Marseille, France  
@@ -15,7 +22,7 @@ Centre de Physique Théorique, Turing Centre for Living Systems, Marseille, Fran
 
 
 ## Installation
-This package is based on the [`tyssus`](https://tyssue.readthedocs.org) library and its dependencies It recquires a specific version of tyssue that you can find here : [tyssue](https://github.com/sophietheis/tyssue/tree/standardisation). 
+This package is based on the [`tyssue`](https://tyssue.readthedocs.org) library and its dependencies It recquires a specific version of tyssue that you can find here : [tyssue](https://github.com/sophietheis/tyssue/tree/standardisation). 
 
 The recommanded installation route is to use the `conda` package manager. You can get a `conda` distribution for your OS at https://www.anaconda.com/download . Make sure to choose a python 3.6 version. Once you have installed conda, you can install tyssue with:
 

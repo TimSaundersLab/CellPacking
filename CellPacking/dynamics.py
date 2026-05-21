@@ -22,6 +22,21 @@ class Compression(effectors.AbstractEffector):
         grad['gx'] = sheet.vert_df.eval("compression*x")
         return grad, None
 
+class Compressiony(effectors.AbstractEffector):
+
+    @staticmethod
+    def energy(sheet):
+        return sheet.vert_df.eval('compression * y**2')
+
+    @staticmethod
+    def gradient(sheet):
+        grad = sheet.vert_df[sheet.coords].copy()
+        grad.columns = ['gx', 'gy', 'gz']
+        grad['gz'] = 0
+        grad['gx'] = 0
+        grad['gy'] = sheet.vert_df.eval("compression*y")
+        return grad, None
+
 
 class MonolayerCompression(effectors.AbstractEffector):
 
