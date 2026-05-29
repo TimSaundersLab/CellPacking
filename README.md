@@ -8,11 +8,15 @@ This is a flat monolayer simulation package for the article:
 
 Yuting Lou<sup>1</sup>, Jean-Francois Rupprecht<sup>1,2</sup>, Sophie Theis<sup>3</sup>, Tetsuya Hiraiwa<sup>1</sup>, and Timothy E Saunders<sup>1,3</sup>
 
+[link to the article](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.108401)
+
 & 
 
 ### Stress anisotropy in axisymmetric 3D active curved structures
 
 Yuting Lou<sup>1</sup>, Sophie Theis<sup>3</sup>, Jean-Francois Rupprecht<sup>1,2</sup>, Timothy E Saunders<sup>1,3</sup>, and Tetsuya Hiraiwa<sup>1</sup>
+
+[link to the article]()
 
 
 <sup>1</sup>Mechanobiology Institute, National University of Singapore  
@@ -36,11 +40,24 @@ You can then download and install CellPacking from github:
 
 ```bash
 $ git clone https://github.com/TimSaundersLab/CellPacking.git
-$ cd invagination
+$ cd CellPacking
 $ python setup.py install
 ```
 
 - or by downloading https://github.com/TimSaundersLab/CellPacking/archive/master.zip ,  uncompressing the archive and running `python setup.py install` in the root directory.
+
+
+## Run simulation
+Simulation can be run using notebook found in `notebooks/PRL` or `notebooks/PRE` folders. 
+
+
+To generate simulation about anisotropic stress and in plane shape index (Fig1B), you can use the following notebook: [`notebooks/PRE/Simu_Stress_SI.ipynb`](https://github.com/TimSaundersLab/CellPacking/blob/main/notebooks/PRE/Simu_Stress_SI.ipynb)
+
+To generate simulation about Compression/Extension (Fig1C), you can use the following notebook: [`notebooks/PRE/Simu_Extension_Compression.ipynb`](https://github.com/TimSaundersLab/CellPacking/blob/main/notebooks/PRE/Simu_Extension_Compression.pynb)
+
+To generate simulation from the PRL paper, you can use the following notebook: [`notebooks/PRL/Simulations_Main.ipynb`](https://github.com/TimSaundersLab/CellPacking/blob/main/notebooks/PRL/Simulations_Main.ipynb)
+
+
 
 ## Licence
 
